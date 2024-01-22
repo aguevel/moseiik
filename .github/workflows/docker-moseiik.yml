@@ -7,9 +7,8 @@ on:
 jobs:
   build_and_test:
     strategy:
-      # Creating a matrix for OSs specificities
       matrix:
-        config:
+       config:
         - {
             name: "Ubuntu CI x86",
             os: ubuntu-latest,
