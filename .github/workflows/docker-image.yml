@@ -26,7 +26,7 @@ jobs:
 
     steps:
     - name: Checkout Site Repo
-      uses: actions/checkout@v4
+      uses: actions/checkout
       
     - name : Install Docker
       run : |
