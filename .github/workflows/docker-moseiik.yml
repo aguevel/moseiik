@@ -8,13 +8,13 @@ jobs:
   build_and_test:
     strategy:
         matrix:
-          config: 
-          - {
+          config:
+            - {
              name: "Ubuntu CI x86",
              os: ubuntu-latest,
              arch: amd64
             }
-            {
+            - {
              name: "Ubuntu CI ARM64",
              os: ubuntu-latest,
              arch: aarch64
